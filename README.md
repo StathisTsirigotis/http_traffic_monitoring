@@ -36,3 +36,6 @@ in tables and / or graphs depicting:
 2) Data visualization (object entries). The administrator can see on a map the locations of the IPs to which he has sent HTTP requests. Specifically, one appears
 marker per IP, with lines connecting each user's source city with each icon. The thickness of the lines is adjusted according to the number of requests made to the specific IP, normalized to the maximum number made to the most popular IP.
 
+
+In the present project, the protection of sensitive data has been taken into account, so that only the information needed from the har files is stored in the database, ip - api and ipstack have been used to retrieve the ip, while for the display of the information on maps it has use the plugin leafletjs
+
